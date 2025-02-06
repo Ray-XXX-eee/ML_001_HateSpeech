@@ -1,0 +1,11 @@
+LOGGER :
+Define log file name LOG_FILE 
+Create LOG_PATH by Joining them with path.join(os.getcwd()+'logs'+LOG_FILE)
+mak the LOG_PATH directory 
+create logging str/format 
+define basic config (level, format, handlers[file handler : LOG_PATH,stream handler : sys.stdout])
+
+
+
+
+
